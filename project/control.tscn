@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://ctq186dgfn121"]
+
+[ext_resource type="Shader" uid="uid://cvoib7ixwvr27" path="res://new_shader.gdshader" id="1_0fbet"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ab1mu"]
+shader = ExtResource("1_0fbet")
+
+[node name="Control" type="Control" unique_id=424763504]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1826068033]
+material = SubResource("ShaderMaterial_ab1mu")
+custom_minimum_size = Vector2(500, 500)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
